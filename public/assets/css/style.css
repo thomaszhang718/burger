@@ -1,23 +1,52 @@
+/*This is the CSS style sheet for the HTML page*/
+
+body {
+	background: #fcd455;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
 li {
-  background: #FAEBD7;
-  margin: 5px;
-  padding: 5px;
+	margin: 5px;
+	padding: 5px;
+	width: 500px;
 }
 
 ul {
-	list-style: none
+	list-style: none;
 }
 
 .label {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .create-update-form {
-  background: aqua;
-  margin: 5px;
-  padding: 5px;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
 }
 
 .form-group {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+.eat-button {
+	float: right;
+}
+
+#burger-pic {
+	display:block;
+	margin: 30px auto;
+}
+
+.burger-name {
+	padding: 5px;
+	background: #FAEBD7;
+}
+
+.btn {
+	padding: 0px;
 }

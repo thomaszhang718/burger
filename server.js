@@ -1,7 +1,4 @@
-/*
-Here is where you set up your server file.
-express middleware.
-*/
+//Require the node modules we'll be using
 
 var express = require('express');
 var bodyParser = require('body-parser');
