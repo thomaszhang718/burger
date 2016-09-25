@@ -4,6 +4,8 @@ Here is where you create all the functions that will do the routing for your app
 
 //Require express, create a router variable, and import the burger specific model
 var express = require('express');
+var bodyParser = require('body-parser');
+var methodOverride = require('method-override');
 var router = express.Router();
 var burger = require('../models/burger.js');
 
